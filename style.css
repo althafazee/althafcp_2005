@@ -1,0 +1,284 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: url(https://w0.peakpx.com/wallpaper/861/481/HD-wallpaper-black-screen-bored-thumbnail.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+}
+
+.info-box {
+  
+  border-radius: 20px; 
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  width: 100%; 
+  max-width: 600px; 
+  color: #ffffff; 
+  text-align: center; 
+  position: absolute; 
+  top: 40px; 
+  height: auto; 
+}
+
+.info-box img {
+  max-width: 150px;
+  border-radius: 50%;
+  border: 3px solid #3e3c3c; 
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out, border-width 0.3s ease-in-out; 
+  position: relative;
+}
+
+.info-box img:hover {
+  transform: scale(1.1); 
+  border-color:  #ffffff; 
+}
+
+.info-box img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 50%;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.info-box img:hover::before {
+  opacity: 0; 
+}
+
+
+.name {
+   font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #dddddd; 
+}
+
+.info-box h2 {
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-size: 22px;
+  font-weight: 450;
+  margin: -10px 0 3px 0;
+  color:#dddddd;  
+}
+
+.info-box h3 {
+  font-family: Andale Mono, monospace;
+  font-size: 18px;
+  font-weight: 450;
+  margin: 15px 0 3px 0;
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+
+.social-icon {
+ 
+  width: 33px;
+  height: 33px;
+  margin-right: 10px; 
+  margin-top: 12px; 
+  transition: transform 0.3s ease; 
+}
+
+
+.social-icon:hover {
+  transform: scale(0.9); 
+}
+
+
+.hai {
+  padding: 10px;
+  text-align: center; /* Align the text within .hai to the center horizontally */
+  margin-top: 20px; /* Move the content down by 20 pixels */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically within .hai */
+  align-items: center; /* Center content horizontally within .hai */
+}
+
+
+.hai h2 {
+  font-family:  Sans Mono, monospace;
+  font-size: 28px;
+  color:#ffffff;
+}
+
+.ok h3 {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.8);
+  
+  margin-top: 10px; /* Adjust the top margin to move it down slightly */
+}
+
+
+
+
+.skill-container-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 15px; 
+}
+
+
+
+
+.skill-link {
+  display: block;
+  text-decoration: none;
+}
+
+
+.skill-container {
+  width: 110px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(192, 192, 192, 0.2);
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; 
+  margin-left: auto; 
+  margin-right: 5px; 
+}
+
+
+.skill-container:hover {
+  background-color: rgba(152, 152, 152, 0.6);
+}
+
+
+.skill-container img {
+  max-width: 44%;
+  max-height: 44%;
+  object-fit: cover;
+  margin-left: 10px;
+  border: none;
+}
+
+
+.skill-container h3 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+.hey{
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px; 
+  
+}
+
+
+.hey h2 {
+  font-family:  Sans Mono, monospace;
+  font-size: 28px; 
+  color: #ffffff 
+}
+
+.hey h3 {
+  font-size: 17px; 
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.helo-container-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 20px;
+}
+
+
+.helo-container {
+  width: 450px;
+  height: 140px;
+  border-radius: 10px;
+  background-color: rgba(192, 192, 192, 0.2);
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+
+.helo-container:hover {
+  background-color: rgba(152, 152, 152, 0.6);
+}
+
+
+
+.custom-link {
+ 
+  text-decoration: none;
+  color:  rgba(255, 255, 255, 0.8); 
+  transition: color 0.3s ease, background-color 0.3s ease; 
+  margin-top: 20px;
+  margin-left: -270px; 
+}
+
+.custom-link:hover {
+  background-color: rgba(152, 152, 152, 0.6); 
+  color:rgba(152, 152, 152, 0.6) ;
+}
+
+.contact-section {
+  text-align: center; 
+  margin-top: 40px;
+}
+
+.gmail-link {
+  text-decoration: underline; 
+  color: #cccccc; 
+  font-weight: bold;
+}
+.social-icons {   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.social-icons a {  
+  margin: 0 10px;
+  text-decoration: none;
+  color: #cccccc;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+  transform: translateY(5px) scale(0.95);
+}
+
+
+

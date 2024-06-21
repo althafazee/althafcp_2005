@@ -22,7 +22,7 @@ body {
   align-items: center;
   width: 100%;
   min-height: 100vh; /* Ensures it covers full viewport height */
-  background: url('https://coolbackgrounds.io/white-background.jpg') no-repeat center center fixed;
+  background: #000000 no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

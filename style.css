@@ -22,17 +22,13 @@ body {
   align-items: center;
   width: 100%;
   min-height: 100vh; /* Ensures it covers full viewport height */
-  background: #000000 no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #000000; /* Set the container's background to black */
 }
 
 .info-container {
   display: flex;
   align-items: center;
-  background-color: #000000; /* Set the outer container's background to black */
+  background-color: #000000; /* Ensure the outer container has a black background */
   padding: 20px;
   border-radius: 20px;
 }

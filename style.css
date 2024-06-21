@@ -1,3 +1,4 @@
+/* Global Reset */
 * {
   padding: 0;
   margin: 0;
@@ -7,15 +8,17 @@
   text-decoration: none;
 }
 
+/* Body Styling */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background: #000000; /* Light grey background for the entire body */
+  background: #000000; /* Black background for the entire body */
 }
 
+/* Container Styling */
 .container {
   display: flex;
   justify-content: center;
@@ -23,16 +26,23 @@ body {
   width: 100%;
   min-height: 100vh; /* Ensures it covers full viewport height */
   background-color: #000000; /* Set the container's background to black */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculations */
 }
 
+/* Info Container Styling */
 .info-container {
   display: flex;
-  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
   background-color: #000000; /* Ensure the outer container has a black background */
   padding: 20px;
   border-radius: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
+/* Info Box Styling */
 .info-box {
   background-color: #ffffff; /* Set the inner container's background to white */
   border-radius: 20px;
@@ -42,6 +52,7 @@ body {
   max-width: 600px;
   color: #000000;
   text-align: center;
+  margin: auto; /* Center the info-box */
 }
 
 

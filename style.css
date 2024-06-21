@@ -258,7 +258,7 @@ background-size: cover;
 
 .gmail-link {
   text-decoration: underline; 
-  color: #cccccc; 
+  color: #000000; 
   font-weight: bold;
 }
 .social-icons {   
@@ -271,7 +271,7 @@ background-size: cover;
 .social-icons a {  
   margin: 0 10px;
   text-decoration: none;
-  color: #cccccc;
+  color: #000000;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 

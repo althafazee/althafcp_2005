@@ -1,19 +1,36 @@
+/* Reset CSS */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-  list-style: none;
-  text-decoration: none;
 }
 
-
+/* Body styles */
 body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* Set the background color of the entire page */
+  color: #ffffff; /* Set default text color */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 0;
-  background: #000000; 
 }
 
+/* Page container */
+.page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content container */
+.content-container {
+  background-color: #ffffff; /* Set the background color of the content container to white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 90%; /* Limit the maximum width of the content */
+  text-align: center; /* Center align content */
+}

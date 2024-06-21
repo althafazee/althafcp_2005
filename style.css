@@ -13,7 +13,16 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fcoolbackgrounds.io%2Fwhite-background%2F&psig=AOvVaw05-kVFjTVW_F8PRWLmrbbW&ust=1719070354187000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC-_5-C7YYDFQAAAAAdAAAAABAJ') no-repeat center center fixed;
+  background: #f0f0f0; /* Light grey background for the entire body */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh; /* Ensures it covers full viewport height */
+  background: url('https://coolbackgrounds.io/white-background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,8 +33,8 @@ body {
   display: flex;
   align-items: center;
   background-color: #000000; /* Set the outer container's background to black */
-  padding: 20px; /* Add some padding for spacing */
-  border-radius: 20px; /* Optional: if you want rounded corners for the outer container */
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .info-box {
@@ -38,6 +47,7 @@ body {
   color: #000000;
   text-align: center;
 }
+
 
 .info-box img {
   max-width: 150px;

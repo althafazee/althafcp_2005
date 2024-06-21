@@ -49,14 +49,13 @@ body {
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   color: #000000;
   text-align: center;
   margin: auto; /* Center the info-box */
-  margin-left: 20px; /* Add right margin to move left */
-
-  /* Alternatively, use transform for a more controlled shift */
-  /* transform: translateX(-10px); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -202,7 +201,7 @@ body {
 .hey h2 {
   font-family: Sans Mono, monospace;
   font-size: 28px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .hey h3 {
@@ -213,18 +212,24 @@ body {
 .helo-container-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
   margin-top: 20px;
+  width: 100%; /* Ensure it takes full width of info-box */
+  box-sizing: border-box;
+  padding: 10px; /* Add some padding to avoid touching edges */
 }
 
+/* Container item styling */
 .helo-container {
-  width: 450px;
+  width: calc(100% - 20px); /* Adjust width to fit within the row */
+  max-width: 450px; /* Ensure it doesn't exceed this width */
   height: 140px;
   border-radius: 10px;
   background-color: rgba(192, 192, 192, 0.2);
   transition: background-color 0.3s ease;
-  margin: 10px;
+  margin: 10px; /* Ensure margin for spacing */
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
 }
 
 .helo-container:hover {

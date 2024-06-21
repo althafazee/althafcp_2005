@@ -53,7 +53,8 @@ body {
   color: #000000;
   text-align: center;
   margin: auto; /* Center the info-box */
-  margin-right: 20px; /* Add right margin to move left */
+  margin-left: 20px; /* Add right margin to move left */
+  
   /* Alternatively, use transform for a more controlled shift */
   /* transform: translateX(-10px); */
 }

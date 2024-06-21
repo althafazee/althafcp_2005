@@ -114,16 +114,16 @@ body {
 }
 
 .social-icon {
-  width: 33px;
-  height: 33px;
+  width: 32px; /* Adjust width to match the original size */
+  height: 32px; /* Adjust height to match the original size */
   margin-right: 10px;
   margin-top: 12px;
-  transition: transform 0.3s ease;
 }
 
 .social-icon:hover {
-  transform: scale(0.9);
+  transform: none; /* Remove the scaling transform on hover */
 }
+
 
 .hai {
   padding: 10px;

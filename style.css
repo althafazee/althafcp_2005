@@ -18,7 +18,8 @@ body {
   background: #000000; /* Black background for the entire body */
 }
 
-.background color{
+/* Container Styling */
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,8 +29,6 @@ body {
   padding: 20px; /* Add padding for spacing */
   box-sizing: border-box; /* Include padding in width calculations */
 }
-
-
 
 /* Info Container Styling */
 .info-container {
@@ -58,10 +57,3 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-
-
-
-
-
-

@@ -18,7 +18,17 @@ body {
   background: #000000; /* Black background for the entire body */
 }
 
-/* Container Styling */
+.background color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh; /* Ensures it covers full viewport height */
+  background-color: #000000; /* Set the container's background to black */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
 
 
 /* Info Container Styling */

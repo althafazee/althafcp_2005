@@ -78,7 +78,7 @@ background-size: cover;
   font-size: 28px;
   font-weight: 500;
   margin: 10px 0;
-  color: #dddddd; 
+  color: #000000; 
 }
 
 .info-box h2 {
@@ -86,7 +86,7 @@ background-size: cover;
   font-size: 22px;
   font-weight: 450;
   margin: -10px 0 3px 0;
-  color:#dddddd;  
+  color:#000000;  
 }
 
 .info-box h3 {
@@ -94,7 +94,7 @@ background-size: cover;
   font-size: 18px;
   font-weight: 450;
   margin: 15px 0 3px 0;
-  color: rgba(255, 255, 255, 0.8); 
+  color: #000000; 
 }
 
 
@@ -127,12 +127,12 @@ background-size: cover;
 .hai h2 {
   font-family:  Sans Mono, monospace;
   font-size: 28px;
-  color:#ffffff;
+  color:#000000;
 }
 
 .ok h3 {
   font-size: 17px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #000000;
   
   margin-top: 10px; /* Adjust the top margin to move it down slightly */
 }

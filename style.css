@@ -49,12 +49,12 @@ body {
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   color: #000000;
   text-align: center;
   margin: auto; /* Center the info-box */
   margin-left: 20px; /* Add right margin to move left */
-  
+
   /* Alternatively, use transform for a more controlled shift */
   /* transform: translateX(-10px); */
 }

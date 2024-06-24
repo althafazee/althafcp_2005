@@ -70,3 +70,9 @@ body {
   color: black;
 }
 
+.ai-icon {
+  width: 50px; /* Adjust width of the AI icon */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px; /* Adjust spacing above the AI icon */
+}
+

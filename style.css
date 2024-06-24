@@ -61,18 +61,15 @@ body {
 .name-job h2 {
   font-size: 1.5rem; /* Adjust font size for name */
   margin-bottom: 5px; /* Adjust spacing below name */
-  color: black;
 }
 
 .name-job p {
   font-size: 1rem; /* Adjust font size for job title */
   margin: 0; /* Remove default margin */
-  color: black;
 }
 
 .ai-icon {
-  width: 50px; /* Adjust width of the AI icon */
+  width: 20px; /* Adjust width of the AI icon */
   height: auto; /* Maintain aspect ratio */
-  margin-top: 10px; /* Adjust spacing above the AI icon */
+  margin-left: 5px; /* Adjust spacing to the right of the job title */
 }
-

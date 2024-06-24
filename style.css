@@ -1,13 +1,17 @@
-/* style.css */
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* General styles */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin: 0;
-  padding: 0;
   background-color: black; /* Set background color of the entire page */
-  color: #000000; /* Set default text color */
+  color: white; /* Set default text color */
+  margin: 0;
 }
 
 .black-background {
@@ -18,13 +22,9 @@ body {
   align-items: center;
 }
 
-/* style.css */
-
 .container {
   width: 80%; /* Adjust width percentage as per your design */
   max-width: 600px; /* Set maximum width for larger screens */
-  height: auto; /* Adjust height automatically based on content */
-  min-height: 300px; /* Set minimum height to ensure content visibility */
   background-color: white; /* Rectangular content area */
   padding: 40px; /* Increase padding for more space inside the container */
   border-radius: 10px; /* Rounded corners for the content area */
@@ -35,40 +35,30 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
 .image-container {
   width: 150px; /* Adjust width of image container */
   height: 150px; /* Adjust height of image container */
   border-radius: 50%; /* Create a circular shape */
   overflow: hidden; /* Hide overflow (extra parts of the image) */
-  margin-top: 20px; /* Adjust spacing from the text above */
+  margin-top: auto; /* Push the image container to the bottom */
+  border: 2px solid white; /* Add a white border around the image */
 }
 
 .rounded-image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
   border-radius: 50%; /* Ensure the image itself is circular */
-}
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-  /* Adjust styles for tablets and smaller screens */
-  .container {
-      width: 90%; /* Adjust width percentage for smaller screens */
-      max-width: 800px; /* Adjust max-width for smaller screens */
-  }
-
-}
-@media only screen and (max-width: 480px) {
-  /* Adjust styles for mobile phones */
-  .container {
-      width: 95%; /* Adjust width percentage for smaller screens */
-      max-width: 500px; /* Adjust max-width for smaller screens */
-  }
-
 }

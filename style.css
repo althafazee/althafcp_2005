@@ -1,10 +1,3 @@
-/* Reset default margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* General styles */
 body {
   font-family: Arial, sans-serif;
@@ -12,6 +5,7 @@ body {
   background-color: black; /* Set background color of the entire page */
   color: white; /* Set default text color */
   margin: 0;
+  padding: 0;
 }
 
 .black-background {
@@ -35,14 +29,14 @@ body {
   align-items: center;
 }
 
-
 .image-container {
+  position: relative;
   width: 150px; /* Adjust width of image container */
   height: 150px; /* Adjust height of image container */
   border-radius: 50%; /* Create a circular shape */
   overflow: hidden; /* Hide overflow (extra parts of the image) */
   margin-top: auto; /* Push the image container to the bottom */
-  position: relative; /* Enable positioning for pseudo-elements */
+  border: 2px solid white; /* Add a white border around the image */
 }
 
 .rounded-image {
@@ -59,15 +53,17 @@ body {
   transform: scale(1.1); /* Scale the image by 110% on hover */
 }
 
-/* Create a pseudo-element for the border */
-.image-container::before {
-  content: ''; /* Required for pseudo-elements */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%; /* Ensure pseudo-element is circular */
-  border: 3px solid gray; /* Border color */
-  box-sizing: border-box;
+.name-job {
+  margin-top: 20px; /* Adjust spacing between image and name/job */
+  text-align: center; /* Center align text */
+}
+
+.name-job h2 {
+  font-size: 1.5rem; /* Adjust font size for name */
+  margin-bottom: 5px; /* Adjust spacing below name */
+}
+
+.name-job p {
+  font-size: 1rem; /* Adjust font size for job title */
+  margin: 0; /* Remove default margin */
 }

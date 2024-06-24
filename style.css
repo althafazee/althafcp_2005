@@ -69,7 +69,7 @@ body {
 }
 
 .ai-icon {
-  width: 20px; /* Adjust width of the AI icon */
+  width: 15px; /* Adjust width of the AI icon */
   height: auto; /* Maintain aspect ratio */
   margin-left: 5px; /* Adjust spacing to the right of the job title */
 }

@@ -38,12 +38,13 @@ body {
 
 
 .image-container {
+  position: relative;
   width: 150px; /* Adjust width of image container */
   height: 150px; /* Adjust height of image container */
   border-radius: 50%; /* Create a circular shape */
   overflow: hidden; /* Hide overflow (extra parts of the image) */
   margin-top: auto; /* Push the image container to the bottom */
-  position: relative; /* Enable positioning for pseudo-elements */
+  border: 2px solid white; /* Add a white border around the image */
 }
 
 .rounded-image {
@@ -64,11 +65,27 @@ body {
 .image-container::before {
   content: ''; /* Required for pseudo-elements */
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: -3px;
+  left: -3px;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
   border-radius: 50%; /* Ensure pseudo-element is circular */
-  border: 2px solid #000000; /* Border color */
+  border: 2px solid transparent; /* Transparent border initially */
   box-sizing: border-box;
+  animation: borderSparkle 1.5s ease infinite; /* Border sparkle animation */
+}
+
+@keyframes borderSparkle {
+  0% {
+      border-color: transparent;
+      transform: rotate(0deg);
+  }
+  50% {
+      border-color: #FFFFFF; /* Color of the sparkling border */
+      transform: rotate(180deg);
+  }
+  100% {
+      border-color: transparent;
+      transform: rotate(360deg);
+  }
 }

@@ -19,11 +19,12 @@ body {
 }
 
 .container {
-  max-width: 800px; /* Adjust as per your design */
+  width: 80%; /* Adjust width percentage as per your design */
+  max-width: 1200px; /* Set maximum width for larger screens */
   background-color: white; /* Rectangular content area */
-  padding: 20px;
+  padding: 40px; /* Increase padding for more space inside the container */
   border-radius: 10px; /* Rounded corners for the content area */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
 }
 
 h1 {
@@ -61,7 +62,8 @@ button {
 @media only screen and (max-width: 768px) {
   /* Adjust styles for tablets and smaller screens */
   .container {
-      max-width: 600px;
+      width: 90%; /* Adjust width percentage for smaller screens */
+      max-width: 800px; /* Adjust max-width for smaller screens */
   }
 
   h1 {
@@ -72,7 +74,8 @@ button {
 @media only screen and (max-width: 480px) {
   /* Adjust styles for mobile phones */
   .container {
-      max-width: 400px;
+      width: 95%; /* Adjust width percentage for smaller screens */
+      max-width: 500px; /* Adjust max-width for smaller screens */
   }
 
   h1 {

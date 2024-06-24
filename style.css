@@ -87,89 +87,12 @@ body {
 
 
 
-.skills-icon {
-  width: 25px; /* Adjust width of the skills icon */
-  height: auto; /* Ensure the height adjusts proportionally */
-  margin-left: 5px; /* Adjust spacing to the right of the job title */
-  vertical-align: middle; /* Align the icon vertically with text */
-}
-
-
-.social-icons {
-  margin-top: 15px; /* Adjust spacing above social icons */
-  display: flex;
-  justify-content: center; /* Center align social icons horizontally */
-}
-
-.social-icon {
-  display: inline-block;
-  width: 40px; /* Adjust width of each social icon */
-  height: 40px; /* Adjust height of each social icon */
-  border-radius: 50%; /* Make each icon circular */
-  overflow: hidden; /* Hide overflow (extra parts of the icon) */
-  margin: 10px 5px; /* Adjust margin to move the icons down */
-  position: relative;
-}
-
-.social-icon img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease; /* Smooth zooming animation */
-}
-
-/* Add hover effect to social icons */
-.social-icon:hover img {
-  transform: scale(1.1); /* Scale the icon by 110% on hover */
-}
-
-/* Add border to social icons */
-.social-icon::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%; /* Ensure pseudo-element is circular */
-  border: 2px solid gray; /* Border color */
-  box-sizing: border-box;
-}
-
-
-.skills-section {
-  text-align: center; /* Center align skills section */
-  margin-top: 20px; /* Adjust spacing above skills section */
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10px; /* Adjust spacing above skills */
-}
-
-.skill {
-  background-color: rgba(0, 0, 0, 0.1); /* Transparent background color */
-  color: #333; /* Text color */
-  padding: 8px 16px; /* Padding inside each skill capsule */
-  border-radius: 20px; /* Rounded corners */
-  margin: 5px; /* Margin around each skill capsule */
-  flex: 0 1 calc(33.33% - 10px); /* Adjust width to fit 3 items per row with margin */
-  max-width: calc(33.33% - 10px); /* Adjust maximum width to maintain 3 items per row */
-  text-align: center; /* Center align text inside skill capsule */
-}
 
 
 
 
-.skills-icon {
-  width: 15px; /* Adjust width of the AI icon */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 5px; /* Adjust spacing to the right of the job title */
-  vertical-align: middle; /* Align the icon vertically with text */
-}
+
+
 
 
 /* For smaller screens, adjust layout */

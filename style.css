@@ -54,7 +54,7 @@ body {
 }
 
 .name-job {
-  margin-top: 30px; /* Adjust spacing between image and name/job */
+  margin-top: 10px; /* Adjust spacing between image and name/job */
   text-align: center; /* Center align text */
 }
 

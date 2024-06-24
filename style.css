@@ -61,9 +61,12 @@ body {
 .name-job h2 {
   font-size: 1.5rem; /* Adjust font size for name */
   margin-bottom: 5px; /* Adjust spacing below name */
+  color: black;
 }
 
 .name-job p {
   font-size: 1rem; /* Adjust font size for job title */
   margin: 0; /* Remove default margin */
+  color: black;
 }
+

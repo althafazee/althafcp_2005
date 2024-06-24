@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black; /* Set background color of the entire page */
-  color: white; /* Set default text color */
+  color: #000000; /* Set default text color */
 }
 
 .black-background {

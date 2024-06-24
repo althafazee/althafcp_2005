@@ -72,4 +72,5 @@ body {
   width: 15px; /* Adjust width of the AI icon */
   height: auto; /* Maintain aspect ratio */
   margin-left: 5px; /* Adjust spacing to the right of the job title */
+  vertical-align: middle; /* Align the icon vertically with text */
 }

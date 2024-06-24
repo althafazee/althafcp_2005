@@ -81,7 +81,7 @@ body {
       transform: rotate(0deg);
   }
   50% {
-      border-color: #FFFFFF; /* Color of the sparkling border */
+      border-color: #000000; /* Color of the sparkling border */
       transform: rotate(180deg);
   }
   100% {

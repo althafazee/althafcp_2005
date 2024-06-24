@@ -63,7 +63,7 @@ button {
   /* Adjust styles for tablets and smaller screens */
   .container {
       width: 50%; /* Adjust width percentage for smaller screens */
-      max-width: 800px; /* Adjust max-width for smaller screens */
+      max-width: 500px; /* Adjust max-width for smaller screens */
   }
 
   h1 {

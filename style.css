@@ -3,17 +3,13 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: black; /* Set background color of the entire page */
-  color: #000000; /* Set default text color */
+  color: white; /* Set default text color */
   margin: 0;
   padding: 0;
-}
-
-.black-background {
-  background-color: black; /* Ensure background covers the entire viewport */
-  min-height: 100vh; /* Ensure background covers entire viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh; /* Ensure at least full viewport height */
 }
 
 .container {
@@ -27,7 +23,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: auto; /* Push container to the bottom */
 }
+
 
 .image-container {
   position: relative;

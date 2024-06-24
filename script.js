@@ -1,7 +1,9 @@
 // script.js
 document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("myButton");
-  button.addEventListener("click", () => {
-      alert("Button clicked!");
+  const toggleMenuButton = document.getElementById("toggleMenu");
+  const menu = document.querySelector(".menu");
+
+  toggleMenuButton.addEventListener("click", () => {
+      menu.classList.toggle("show-menu");
   });
 });

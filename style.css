@@ -1,12 +1,80 @@
 /* style.css */
+
+/* General styles */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px; /* Adjust as per your design */
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 button {
   margin: 10px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
+}
+
+/* Navigation menu */
+.menu {
+  display: none; /* Hide menu by default */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for tablets and smaller screens */
+  .container {
+      max-width: 600px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Adjust styles for mobile phones */
+  .container {
+      max-width: 400px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  button {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+  }
+
+  /* Show menu when toggled */
+  .menu {
+      display: block;
+      margin-top: 20px;
+  }
 }

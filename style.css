@@ -39,7 +39,6 @@ body {
   overflow: hidden; /* Hide overflow (extra parts of the image) */
   margin-top: auto; /* Push the image container to the bottom */
   border: 4px solid white; /* Increase border size to 4px and set white color */
-  margin-right: auto; /* Align the image container to the left */
 }
 
 .rounded-image {
@@ -62,17 +61,15 @@ body {
 
 
 .name-job {
-  margin-top: -150px; /* Adjust spacing to move up vertically */
+  margin-top: 5px; /* Adjust spacing from the image container */
   text-align: center; /* Center align text */
-  margin-left: 80px; /* Move the section slightly to the right */
 }
-
 
 .name-job h2 {
   font-size: 1.5rem; /* Adjust font size for name */
   margin-bottom: 5px; /* Adjust spacing below name */
   font-family: 'Roboto', sans-serif; /* Example: Use Google Font Roboto */
-  font-weight: 510;
+  font-weight: 700; /* Adjust font weight (700 is bold, adjust as needed) */
 }
 
 .name-job p {
@@ -89,11 +86,14 @@ body {
 }
 
 
-.social-icons {
-  margin-top: 10px; /* Adjust spacing above social icons */
-  display: flex;
-  justify-content: center; /* Center align social icons horizontally */
+
+.skills-icon {
+  width: 25px; /* Adjust width of the skills icon */
+  height: auto; /* Ensure the height adjusts proportionally */
+  margin-left: 5px; /* Adjust spacing to the right of the job title */
+  vertical-align: middle; /* Align the icon vertically with text */
 }
+
 
 .social-icon {
   display: inline-block;

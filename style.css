@@ -117,8 +117,8 @@ body {
 }
 
 .skills {
-  text-align: center; /* Center align the skills */
-  margin-top: 20px; /* Add margin top */
+  text-align: center;
+  margin-top: 20px;
 }
 
 .skills ul {
@@ -126,27 +126,42 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center align the items */
+  justify-content: center;
 }
 
 .skills li {
-  background-color: rgba(0, 0, 0, 0.1); /* Transparent background color */
-  color: #333; /* Dark text color */
-  border-radius: 20px; /* Capsule shape */
-  padding: 8px 16px; /* Padding inside the capsules */
-  margin: 5px; /* Margin around the capsules */
-  width: calc(50% - 10px); /* Two items per line with margin */
-  max-width: 200px; /* Maximum width of each item */
-  box-sizing: border-box; /* Include padding and border in the width */
-  text-align: center; /* Center align text */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color change */
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+  border-radius: 20px;
+  padding: 8px 0px;
+  margin: 5px;
+  flex: 1 0 calc(50% - 10px);
+  max-width: calc(50% - 10px);
+  text-align: center;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .skills li:hover {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background on hover */
-  color: #fff; /* Light text color on hover */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
+.skill-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.skills li:nth-child(even) .skill-icon {
+  left: auto;
+  right: 8px;
+}
 
 
 

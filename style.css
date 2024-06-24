@@ -86,45 +86,74 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* For smaller screens, adjust layout */
-@media (max-width: 768px) {
-  .container {
-    width: 90%; /* Adjust width percentage for smaller screens */
-    padding: 20px; /* Reduce padding for smaller screens */
-    margin-bottom: 50px; /* Adjust margin as needed */
-  }
-
-  .name-job {
-    margin-top: 20px; /* Increase spacing above name/job on smaller screens */
-  }
-
-  .skills {
-    flex-direction: column; /* Stack skills vertically on smaller screens */
-    margin-top: 10px; /* Adjust margin above skills section */
-  }
-
-  .skill {
-    flex: 0 1 100%; /* Full width for skills on smaller screens */
-    max-width: 100%; /* Full width for skills on smaller screens */
-  }
-
-  .social-icon {
-    width: 30px; /* Adjust width of each social icon for smaller screens */
-    height: 30px; /* Adjust height of each social icon for smaller screens */
-    margin: 0 3px; /* Adjust margin between social icons for smaller screens */
-  }
-
-  .skills-icon {
-    width: 20px; /* Adjust width of the skills icon for smaller screens */
-    margin-left: 3px; /* Adjust spacing to the right of the job title for smaller screens */
-  }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Move icons downward */
 }
+
+.social-icon {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid grey; /* Border style */
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth animation for transform and border */
+}
+
+.social-icon:hover {
+  border-color: #333; /* Darken border color on hover */
+}
+
+.social-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.social-icon:hover img {
+  transform: scale(1.2); /* Zoom in on hover */
+}
+
+.skills {
+  text-align: center; /* Center align the skills */
+  margin-top: 20px; /* Add margin top */
+}
+
+.skills ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the items */
+}
+
+.skills li {
+  background-color: rgba(0, 0, 0, 0.1); /* Transparent background color */
+  color: #333; /* Dark text color */
+  border-radius: 20px; /* Capsule shape */
+  padding: 8px 16px; /* Padding inside the capsules */
+  margin: 5px; /* Margin around the capsules */
+  width: calc(50% - 10px); /* Two items per line with margin */
+  max-width: 200px; /* Maximum width of each item */
+  box-sizing: border-box; /* Include padding and border in the width */
+  text-align: center; /* Center align text */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color change */
+}
+
+.skills li:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -36,7 +36,7 @@ body {
   border-radius: 50%; /* Create a circular shape */
   overflow: hidden; /* Hide overflow (extra parts of the image) */
   margin-top: auto; /* Push the image container to the bottom */
-  border: 2px solid white; /* Add a white border around the image */
+  border: 2px solid #000000; /* Add a white border around the image */
 }
 
 .rounded-image {

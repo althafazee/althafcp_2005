@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: black; /* Set background color of the entire page */
-  color: white; /* Set default text color */
+  color: #000000; /* Set default text color */
   margin: 0;
   padding: 0;
 }
